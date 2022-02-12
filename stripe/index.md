@@ -105,7 +105,7 @@ curl --location --request POST 'https://api.stripe.com/v1/checkout/sessions' \
 # 前端部分
 ## 前端渲染支付 url
 前端可以拿接口返回的 url，直接打开，
-![image.png](https://upload-images.jianshu.io/upload_images/2058787-b227af3584f28c06.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/620)
+![image.png](https://s3.bmp.ovh/imgs/2022/02/3a3d80e178eeda5e.png)
 
 我们是用 test 的密钥，所以最好使用官方提供的模拟信用卡来测试，不要使用真实的信用卡来测试： [https://stripe.com/docs/testing](https://stripe.com/docs/testing)
 
@@ -114,7 +114,7 @@ stripe 会根据实际的支付结果调整之前前端传的 `success_url`, `ca
 
 # 异步通知部分
 Webhook 可配置支付事件的回调，我们只要在后台配置好地址，在对应的地址处理回调即可。如下图所示:
-![image.png](https://upload-images.jianshu.io/upload_images/2058787-e49a3861bffcd74a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/620)
+![image.png](https://s3.bmp.ovh/imgs/2022/02/a2d9941304d7b794.png)
 为了方便本地方便测试回调，我们也可以添加本地监听器
 
 ## 回调内容
@@ -127,11 +127,11 @@ Webhook 可配置支付事件的回调，我们只要在后台配置好地址，
 brew install stripe/stripe-cli/stripe
 ```
 2. 登录
-![image.png](https://upload-images.jianshu.io/upload_images/2058787-bfce22c8c5204cb5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image.png](https://s3.bmp.ovh/imgs/2022/02/fddef858a638f8c4.png)
 
 
 3. 按enter 打开网页, 点击运行访问完成登录验证
-![image.png](https://upload-images.jianshu.io/upload_images/2058787-e10da452abdb77f5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image.png](https://s3.bmp.ovh/imgs/2022/02/e04d9991a6844434.png)
 
 4. 监听
 ```
