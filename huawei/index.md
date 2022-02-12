@@ -3,10 +3,10 @@
 
 
 # 官方建议的开发流程
-![image.png](https://upload-images.jianshu.io/upload_images/2058787-86ff405c35779a50.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image.png](https://s3.bmp.ovh/imgs/2022/02/f0879431e7c230ee.png)
 
 # 华为支付流程图
-![image.png](https://upload-images.jianshu.io/upload_images/2058787-57c0b5400ba1e6b6.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/620)
+![image.png](https://s3.bmp.ovh/imgs/2022/02/57dfd6418d9c2808.png)
 
 # 验证支付结果相关官方文档
 * 客户端模式获取 access_token
@@ -49,7 +49,7 @@ curl --location --request POST 'https://orders-drcn.iap.hicloud.com/applications
 }'
 ```
 ## 正常情况
-![image.png](https://upload-images.jianshu.io/upload_images/2058787-60b13499ae16fef4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/620)
+![image.png](https://s3.bmp.ovh/imgs/2022/02/8f98d90cdc755312.png)
 
 * 支付结果
 ```
@@ -64,7 +64,7 @@ curl --location --request POST 'https://orders-drcn.iap.hicloud.com/applications
 参见：[https://developer.huawei.com/consumer/cn/doc/development/HMSCore-Guides-V5/verifying-signature-returned-result-0000001050033088-V5](https://developer.huawei.com/consumer/cn/doc/development/HMSCore-Guides-V5/verifying-signature-returned-result-0000001050033088-V5)
 
 ## token 过期的情况
-![image.png](https://upload-images.jianshu.io/upload_images/2058787-a8076f3663801207.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/620)
+![image.png](https://s3.bmp.ovh/imgs/2022/02/19675c1700e55d8b.png)
 
 # 总结
 华为支付结果校验逻辑还是比较简单的，官网文档也很清晰。
