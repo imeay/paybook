@@ -3,10 +3,10 @@
 
 
 # 官方建议的开发流程
-![image.png](../images/huaweiRecommend .png))
+![image.png](https://upload-images.jianshu.io/upload_images/2058787-86ff405c35779a50.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 # 华为支付流程图
-![image.png](../images/huaweiProcess.png)
+![image.png](https://upload-images.jianshu.io/upload_images/2058787-57c0b5400ba1e6b6.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/620)
 
 # 验证支付结果相关官方文档
 * 客户端模式获取 access_token
@@ -49,7 +49,7 @@ curl --location --request POST 'https://orders-drcn.iap.hicloud.com/applications
 }'
 ```
 ## 正常情况
-![image.png](../images/huaweiCurlResponse.png)
+![image.png](https://upload-images.jianshu.io/upload_images/2058787-60b13499ae16fef4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/620)
 
 * 支付结果
 ```
