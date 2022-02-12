@@ -15,8 +15,9 @@
     * [捋一捋支付的关键点](alipay/keypoint.md)
     * [说说回调及验签](alipay/notify.md)
     * [退款相关](alipay/refund.md)
+  * [Stripe 支付](stripe/index.md)
+  * [华为内购支付](huwei/index.md)
   * [业务处理](business/index.md)
-
 * [辅助开发工具](utils/index.md)
   * [ngrok](/utils/ngrok.md)
 
